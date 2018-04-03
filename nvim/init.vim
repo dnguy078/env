@@ -17,7 +17,10 @@ let g:rehash256 = 1
 let g:molokai_original = 1
 set number
 colorscheme molokai
+
 let mapleader = ","
+" leader b and leader r to build or run
+autocmd FileType go nmap <leader>r  <Plug>(go-run)
 
 let g:go_fmt_command = "goimports"
 let g:deoplete#enable_at_startup = 1
