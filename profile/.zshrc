@@ -107,4 +107,8 @@ alias gowork="cd $GOPATH/src/github.com/dnguy078"
 alias startup="~/startup.sh"
 alias brighten="brightness --increase"
 alias darken="brightness --decrease"
+alias headphones="samus-alsaenable-headphones"
+alias speakers="samus-alsaenable-speakers"
+alias singlemonitor="xrandr --output eDP1 --off --output DP1 --primary --auto"
+
 
