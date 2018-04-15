@@ -163,3 +163,12 @@ new_window 1pixel
 
 exec_always --no-startup-id xsetroot -solid '#222222'
 
+## sound - samus -chromebook
+bindsym XF86MonBrightnessUp exec brightness --increase
+bindsym XF86MonBrightnessDown exec brightness --decrease
+## volume - samus
+bindsym XF86AudioRaiseVolume exec amixer set Master 3%+
+bindsym XF86AudioLowerVolume exec amixer set Master 3%-
+bindsym XF86AudioMute exec amixer -D pulse set Master 1+ toggle
+
+
