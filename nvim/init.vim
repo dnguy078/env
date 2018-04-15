@@ -32,21 +32,16 @@ set list
 " reference github.com/fatih/vim-go/blob/master/doc/vim-go.txt
 " leader + r to run
 au FileType go nmap <leader>r <Plug>(go-run-split)
-
 " leader + b
 au FileType go nmap <leader>b <Plug>(go-build)
-
 " leader + t
 au FileType go nmap <leader>t <Plug>(go-test)
-
 " leader + c
 au FileType go nmap <leader>c <Plug>(go-coverage)
-
 au FileType go nmap <leader>f <Plug>(go-test-func)
-
 au FileType go nmap <leader>d <Plug>(go-def-tab)
 
-" Notese
+" Notes
 " close a window Control + w, c
 "
 " close all windows except only current one, Control + w, o
