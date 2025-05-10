@@ -18,8 +18,8 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 source <(fzf --zsh)
 
 
-mv profile/.zshrc ~/.zshrc
-. ~/.zshrc
+#mv profile/.zshrc ~/.zshrc
+#. ~/.zshrc
 
 mkdir ~/.config/nvim
 cp nvim/init.vim ~/.config/nvim
