@@ -40,6 +40,7 @@ let g:deoplete#enable_at_startup = 1
 "let g:go_def_reuse_buffer=1
 "let g:go_term_enabled=1
 let g:deoplete#sources#go#gocode_binary = '$GOPATH/bin/gocode'
+let g:python3_host_prog = '.pixi/envs/default/bin/python'
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set list
 
